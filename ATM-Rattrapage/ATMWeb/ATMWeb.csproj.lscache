@@ -55,6 +55,10 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Model/
+ CarteBancaire.cs
+ Compte.cs
+ Operation.cs
 obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
  ATMWeb.AssemblyInfo.cs
