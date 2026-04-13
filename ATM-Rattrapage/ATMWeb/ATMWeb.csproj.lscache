@@ -55,6 +55,7 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Data/DataContext.cs
 Model/
  CarteBancaire.cs
  Compte.cs
