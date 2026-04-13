@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XXcs+a7Yajo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\info\\Documents\\ENSC\\Info 2\\ATMWeb\\ATM-Rattrapage\\ATMWeb\\ATMWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\info\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
+    "C:\\Users\\info\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
