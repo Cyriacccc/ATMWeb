@@ -81,6 +81,11 @@ obj/Debug/net9.0/
  ATMWeb.AssemblyInfo.cs
  ATMWeb.GlobalUsings.g.cs
 Program.cs
+Repositories/
+ CarteRepository.cs
+ CompteRepository.cs
+ ICarteRepository.cs
+ ICompteRepository.cs
 
 [metadataReferences]
 ../../../../../../../../Program Files/dotnet/packs/Microsoft.AspNetCore.App.Ref/9.0.9/ref/net9.0/
