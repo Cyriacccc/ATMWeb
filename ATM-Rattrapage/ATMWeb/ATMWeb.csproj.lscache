@@ -63,6 +63,11 @@ Dtos/
  MontantDto.cs
  OperationResultDto.cs
  SoldeDto.cs
+Exceptions/
+ DomainValidationExeption.cs
+ ForbiddenException.cs
+ NotFoundException.cs
+ UnauthorizedException.cs
 Migrations/
  20260413125526_InitialCreate.cs
  20260413125526_InitialCreate.Designer.cs
