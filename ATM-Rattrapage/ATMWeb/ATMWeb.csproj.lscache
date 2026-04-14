@@ -58,6 +58,11 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 Data/
  DataContext.cs
  SeedData.cs
+Dtos/
+ MessageDto.cs
+ MontantDto.cs
+ OperationResultDto.cs
+ SoldeDto.cs
 Migrations/
  20260413125526_InitialCreate.cs
  20260413125526_InitialCreate.Designer.cs
