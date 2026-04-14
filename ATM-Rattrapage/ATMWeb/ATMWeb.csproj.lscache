@@ -58,6 +58,10 @@ TemporaryDependencyNodeTargetIdentifier=net9.0
 Data/
  DataContext.cs
  SeedData.cs
+Migrations/
+ 20260413125526_InitialCreate.cs
+ 20260413125526_InitialCreate.Designer.cs
+ DataContextModelSnapshot.cs
 Model/
  CarteBancaire.cs
  Compte.cs
