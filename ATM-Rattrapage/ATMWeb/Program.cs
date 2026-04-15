@@ -1,10 +1,16 @@
 using ATMWeb.Data;
+using ATMWeb.Repositories;
+using ATMWeb.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlite("Data Source=atm.db"));
+
+builder.Services.AddScoped<ICarteRepository, CarteRepository>();
+builder.Services.AddScoped<ICompteRepository, CompteRepository>();
+builder.Services.AddScoped<IAtmService, AtmService>();
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
@@ -19,4 +25,5 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.MapControllers();
+
 app.Run();
