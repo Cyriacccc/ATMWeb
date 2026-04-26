@@ -2,12 +2,10 @@ version=1
 
 # This file caches language service data to improve the performance of C# Dev Kit.
 # It is not intended for manual editing. It can safely be deleted and will be
-# regenerated automatically.
+# regenerated automatically. For more information, see https://aka.ms/lscache
 #
-# To exclude from version control, add *.lscache to your .gitignore file.
-#
-# To disable caching, add the following to your VS Code settings:
-#   "dotnet.projectsystem.enableLanguageServiceCache": false
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
 
 [project]
 language=C#
@@ -61,10 +59,18 @@ obj/Debug/net9.0/
  .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
  ATMWeb.UnitTests.AssemblyInfo.cs
  ATMWeb.UnitTests.GlobalUsings.g.cs
+Repositories/
+ FakeCarteRepository.cs
+ FakeCompteRepository.cs
 Test1.cs
+Tests/
+ AtmControllerTests.cs
+ AtmServiceTests.cs
+ CompteControllerTests.cs
 
 [metadataReferences]
-../../../../../../../../Program Files/dotnet/packs/Microsoft.AspNetCore.App.Ref/9.0.9/ref/net9.0/
+../ATMWeb/obj/Debug/net9.0/ref/ATMWeb.dll
+<DOTNET>/packs/Microsoft.AspNetCore.App.Ref/9.0.9/ref/net9.0/
  Microsoft.AspNetCore.Antiforgery.dll
  Microsoft.AspNetCore.Authentication.Abstractions.dll
  Microsoft.AspNetCore.Authentication.BearerToken.dll
@@ -203,7 +209,7 @@ Test1.cs
  System.Diagnostics.EventLog.dll
  System.Security.Cryptography.Xml.dll
  System.Threading.RateLimiting.dll
-../../../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.9/ref/net9.0/
+<DOTNET>/packs/Microsoft.NETCore.App.Ref/9.0.9/ref/net9.0/
  Microsoft.CSharp.dll
  Microsoft.VisualBasic.Core.dll
  Microsoft.VisualBasic.dll
@@ -368,7 +374,6 @@ Test1.cs
  System.Xml.XPath.dll
  System.Xml.XPath.XDocument.dll
  WindowsBase.dll
-../ATMWeb/obj/Debug/net9.0/ref/ATMWeb.dll
 <NUGET>/
  castle.core/5.1.1/lib/net6.0/Castle.Core.dll
  fluentassertions/8.8.0/lib/net6.0/FluentAssertions.dll
@@ -407,21 +412,21 @@ Test1.cs
  sqlitepclraw.provider.e_sqlite3/2.1.10/lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
 
 [analyzerReferences]
-../../../../../../../../Program Files/dotnet/packs/Microsoft.AspNetCore.App.Ref/9.0.9/analyzers/dotnet/cs/
+<DOTNET>/packs/Microsoft.AspNetCore.App.Ref/9.0.9/analyzers/dotnet/cs/
  Microsoft.AspNetCore.App.Analyzers.dll
  Microsoft.AspNetCore.App.CodeFixes.dll
  Microsoft.AspNetCore.Components.Analyzers.dll
-../../../../../../../../Program Files/dotnet/packs/Microsoft.AspNetCore.App.Ref/9.0.9/analyzers/dotnet/roslyn4.4/cs/
+<DOTNET>/packs/Microsoft.AspNetCore.App.Ref/9.0.9/analyzers/dotnet/roslyn4.4/cs/
  Microsoft.Extensions.Logging.Generators.dll
  Microsoft.Extensions.Options.SourceGeneration.dll
-../../../../../../../../Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.9/analyzers/dotnet/cs/
+<DOTNET>/packs/Microsoft.NETCore.App.Ref/9.0.9/analyzers/dotnet/cs/
  Microsoft.Interop.ComInterfaceGenerator.dll
  Microsoft.Interop.JavaScript.JSImportGenerator.dll
  Microsoft.Interop.LibraryImportGenerator.dll
  Microsoft.Interop.SourceGeneration.dll
  System.Text.Json.SourceGeneration.dll
  System.Text.RegularExpressions.Generator.dll
-../../../../../../../../Program Files/dotnet/sdk/9.0.305/Sdks/Microsoft.NET.Sdk/analyzers/
+<DOTNET>/sdk/9.0.305/Sdks/Microsoft.NET.Sdk/analyzers/
  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
  Microsoft.CodeAnalysis.NetAnalyzers.dll
 <NUGET>/
@@ -431,5 +436,5 @@ Test1.cs
   MSTest.Analyzers.dll
 
 [analyzerConfigFiles]
-../../../../../../../../Program Files/dotnet/sdk/9.0.305/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
+<DOTNET>/sdk/9.0.305/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_9_default.globalconfig
 obj/Debug/net9.0/ATMWeb.UnitTests.GeneratedMSBuildEditorConfig.editorconfig

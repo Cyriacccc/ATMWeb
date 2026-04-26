@@ -1,0 +1,26 @@
+@startuml
+
+actor Client
+participant CompteController
+participant AtmService
+participant ICarteRepository
+participant ICompteRepository
+database SQLite
+
+Client -> CompteController : POST /api/compte/retrait
+CompteController -> AtmService : EffectuerRetrait(card, pin, montant)
+AtmService -> ICarteRepository : GetByNumeroCarte(card)
+ICarteRepository -> SQLite : SELECT carte + compte
+SQLite --> ICarteRepository : CarteBancaire
+ICarteRepository --> AtmService : CarteBancaire
+
+AtmService -> ICompteRepository : Update(compte)
+AtmService -> ICompteRepository : AddOperation(operation)
+AtmService -> ICompteRepository : SaveChanges()
+ICompteRepository -> SQLite : UPDATE + INSERT
+SQLite --> ICompteRepository : OK
+
+AtmService --> CompteController : nouveau solde
+CompteController --> Client : 200 OK + JSON
+
+@enduml

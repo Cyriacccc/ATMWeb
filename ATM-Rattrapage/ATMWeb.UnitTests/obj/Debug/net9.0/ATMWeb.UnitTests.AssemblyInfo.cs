@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ATMWeb.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13bfee41e91879f8f0570456b5b541d409e30ec2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef1e60e6f14e7349f8f5c3390824d0a52ca1fdc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATMWeb.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATMWeb.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

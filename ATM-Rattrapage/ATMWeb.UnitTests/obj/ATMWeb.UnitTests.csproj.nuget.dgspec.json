@@ -63,6 +63,12 @@
             "Moq": {
               "target": "Package",
               "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0, )"
             }
           },
           "imports": [

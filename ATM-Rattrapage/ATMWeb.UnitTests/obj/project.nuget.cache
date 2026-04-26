@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4S1NXOFzlo4=",
+  "dgSpecHash": "y4TZKsCxWpQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\info\\Documents\\ENSC\\Info 2\\ATMWeb\\ATM-Rattrapage\\ATMWeb.UnitTests\\ATMWeb.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\info\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\info\\.nuget\\packages\\coverlet.collector\\10.0.0\\coverlet.collector.10.0.0.nupkg.sha512",
     "C:\\Users\\info\\.nuget\\packages\\fluentassertions\\8.8.0\\fluentassertions.8.8.0.nupkg.sha512",
     "C:\\Users\\info\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\info\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",

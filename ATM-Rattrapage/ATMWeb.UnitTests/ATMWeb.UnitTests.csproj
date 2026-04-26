@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <LangVersion>latest</LangVersion>
@@ -8,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="10.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="FluentAssertions" Version="8.8.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageReference Include="Moq" Version="4.20.72" />
@@ -21,5 +24,4 @@
   <ItemGroup>
     <ProjectReference Include="..\ATMWeb\ATMWeb.csproj" />
   </ItemGroup>
-
 </Project>

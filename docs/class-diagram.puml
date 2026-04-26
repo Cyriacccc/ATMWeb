@@ -1,0 +1,28 @@
+@startuml
+
+class Compte {
+  +Id : int
+  +Solde : decimal
+}
+
+class CarteBancaire {
+  +Id : int
+  +NumeroCarte : string
+  +Pin : string
+  +EstBloquee : bool
+  +NombreEssaisRestants : int
+  +CompteId : int
+}
+
+class Operation {
+  +Id : int
+  +Type : string
+  +Montant : decimal
+  +DateOperation : DateTime
+  +CompteId : int
+}
+
+Compte "1" -- "1" CarteBancaire
+Compte "1" -- "*" Operation
+
+@enduml
